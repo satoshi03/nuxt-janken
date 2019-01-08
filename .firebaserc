@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "dev": "janken-bdd1d",
+    "default": "janken-bdd1d"
+  }
+}

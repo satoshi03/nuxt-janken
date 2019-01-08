@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-janken",
+  "version": "1.0.0",
+  "description": "Browser based janken app in JavaScript with NuxtJS.",
+  "author": "Satoshi Innami",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "now-build": "nuxt generate"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.4",
+    "cross-env": "^5.2.0",
+    "firebase": "^5.7.2",
+    "firebase-tools": "^6.2.2",
+    "nuxt": "^2.0.0",
+    "vue-clipboard2": "^0.2.1",
+    "vue-clipboards": "^1.2.4",
+    "vue-lazyload": "^1.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
