@@ -2,6 +2,33 @@
 
 > Browser based janken app in JavaScript with NuxtJS.
 
+![demo](https://media.giphy.com/media/OSaQf631QsSJmZ81f0/giphy.gif)
+
+## Config Setup
+
+This app uses Firebase.
+So, please setup [Firebase](https://firebase.google.com/) at first, if you have not used it.
+
+Create env file to connect Firebase.
+
+```
+$ vim .local.env
+```
+
+```.local.env
+'use strict'
+
+module.exports = {
+  apiKey: "xxxxxxxxxxxxxxx",
+  authDomain: "xxxxxxxxxxxxxxx",
+  databaseURL: "xxxxxxxxxxxxxxx",
+  projectId: "xxxxxxxxxxxxxxx",
+  storageBucket: "xxxxxxxxxxxxxxx",
+  messagingSenderId: "xxxxxxxxxxxxxxx"
+}
+
+```
+
 ## Build Setup
 
 ``` bash
